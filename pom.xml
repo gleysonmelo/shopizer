@@ -40,6 +40,10 @@
 		<java.version>1.8</java.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
+
+		<!-- Drools stuff (Gleyson Melo) -->
+		<drools.dialect.java.compiler.lnglevel>1.8</drools.dialect.java.compiler.lnglevel>
+
 		<!-- eclipse stuff -->
 		<m2eclipse.wtp.contextRoot>/</m2eclipse.wtp.contextRoot>
 
@@ -71,7 +75,7 @@
 		<jackson-version-databind>2.10.2</jackson-version-databind>
 		<jackson-version>2.10.2</jackson-version>
 		<geoip2.version>2.7.0</geoip2.version>
-		<drools.version>7.32.0.Final</drools.version>
+		<drools.version>7.51.0.Final</drools.version>
 		<google-client-maps-services-version>0.1.6</google-client-maps-services-version>
 		<jwt.version>0.8.0</jwt.version>
 
